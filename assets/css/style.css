@@ -85,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color: #790037;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -116,43 +116,17 @@
 }
 
 .contactme:hover{
-  color: #00796b;
-  background-color: white;
+  color: #793d00;
+  background-color: rgb(255, 255, 255);
 }
-/* main body */
-
-/* body-color */
 
 body {
   color: #333;
   font-size: 18px;
 }
-
-/* body {
-  color: black;
-  font-size: 18px;
-} */
-
-/* main a -- links */
-
-/* a {
-  color: #009688;
-} */
-
 a {
-  color: #004d40;
+  color: #15004d;
 }
-
-/* main blockqoute */
-
-/* blockquote {
-  border-left: 5px solid #795548;
-  color: #795548;
-  font-size: 125%;
-  font-weight: 400;
-  margin: 20px 0;
-  padding-left: 1.5rem;
-} */
 
 blockquote {
   border-left: 5px solid #795548;
@@ -175,29 +149,16 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: white;
+  background: #2c8dbe;
   box-shadow: none;
   height: 0;
 }
-
-/* nav {
-  background: rgb(149, 126, 212);
-  box-shadow: none;
-  height: 0;
-} */
 
 nav i {
   padding: 0 15px;
   position: relative;
   top: 5px;
 }
-
-/* main */
-
-/* main {
-  background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
-} */
 
 main {
   background: url(../../assets/img/bg.png) repeat;
@@ -226,18 +187,9 @@ ul.side-nav {
 ul.side-nav li {
   padding: 0;
 }
-
-/* ul.side-nav.fixed a {
-  box-sizing: content-box;
-  color: rgb(48, 122, 207);
-  display: block;
-  line-height: 100%;
-  padding: 10px 0 12px;
-} */
-
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  color: rgb(16, 50, 202);
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -247,14 +199,6 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
   border: none;
   font-weight: 200;
 }
-
-/* ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
-  box-sizing: content-box;
-  min-height: 90px;
-  padding: 30px 30px 40px;
-} */
 
 ul.side-nav.fixed li.logo {
   background-color: #fafafa;
@@ -320,7 +264,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #9370b4 repeat;
   position: relative;
 }
 
@@ -466,14 +410,8 @@ a.hoverline {
   -webkit-transition: 0.25s all;
 }
 
-/* main a.hoverline */
-
-/* a.hoverline:hover {
-  border-bottom: 3px solid #24305e !important;
-} */
-
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #7edbcb !important;
 }
 
 #skills .card.large {
@@ -549,7 +487,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #260080 !important;
 }
 
 /* .teal-text {
@@ -559,7 +497,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #3c0080 !important;
 }
 
 /* .teal {
@@ -602,7 +540,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #960075;
     height: 56px;
     line-height: 56px;
   }
